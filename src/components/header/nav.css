@@ -1,0 +1,46 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+body{
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+.container-nav{
+    background-color: #005792;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+.navbar{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.logo{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 1px;
+}
+.nav{
+    display: inline-block;
+}
+.nav a{
+    padding-left: 17px;
+    font-size: 1.01rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+.nav a:hover{
+    color: white;
+    transition: 300ms all ease-in-out;
+}
